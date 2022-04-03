@@ -15,14 +15,14 @@ The clients are currently only investing in Daqo New Energy (DQ) since they're p
     - Refactored code ran more efficiently with a 92.7% improvement for 2017 and 93.1% for 2018. 
     ![Alt text](https://github.com/Jimena-QM/stock_analysis/blob/main/Performance_Imp_Original_Refactored.PNG "Performance Orig vs Refactored")
     - Refactored code had two new variables set for ticker_index and ticker_volume. Also, start price and ending price were modified from double to single variables. Setting the variables and modifying the length of the variables reduces processing time. 
-    # Original Variables
+    ### Original Variables
     ![Alt text](https://github.com/Jimena-QM/stock_analysis/blob/main/Original_Variables.PNG "Original Variables")
-    # Refactored Variables
+    ### Refactored Variables
     ![Alt text](https://github.com/Jimena-QM/stock_analysis/blob/main/Refactored_Variables.PNG "Refactored Variables")
     - Eliminated the if statement that added the volume by creating a ticker_index
-    # Original
+    ### Original
     ![Alt text](https://github.com/Jimena-QM/stock_analysis/blob/main/Original_TotalVol.PNG "Original If for Total Vol")
-    # Refactored
+    ### Refactored
     ![Alt text](https://github.com/Jimena-QM/stock_analysis/blob/main/Refactored_TotalVol.PNG "Refactored removed If for Total Vol")
     - In refactored code a for loop as added to output the final calculations through arrays, making the process more efficient. 
     ![Alt text](https://github.com/Jimena-QM/stock_analysis/blob/main/Refactored_Arrays_ForLoop.PNG "Refacotred Array For Loop")
